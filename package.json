@@ -1,7 +1,6 @@
 {
-  "name": "CoverageTEST",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["html", "lcov"]
   }
 }
